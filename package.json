@@ -1,0 +1,24 @@
+{
+  "name": "@carsy/eslint-config",
+  "description": "My own eslint configurations",
+  "version": "0.1.0",
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint",
+    "lint",
+    "linter",
+    "style"
+  ],
+  "author": "Zé Bateira <jlageb@gmail.com>",
+  "homepage": "https://github.com/carsy/eslint-config",
+  "bugs": {
+    "url": "https://github.com/carsy/eslint-config/issues"
+  },
+  "repository": "git://github.com/carsy/eslint-config.git",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  }
+}
