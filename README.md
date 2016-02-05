@@ -7,7 +7,7 @@
 [david-dm-dev-url]:https://david-dm.org/carsy/eslint-config#info=devDependencies
 [david-dm-dev-image]:https://img.shields.io/david/dev/carsy/eslint-config.svg
 
-My own [eslint](http://eslint.org/) configurations.
+My own [eslint](http://eslint.org/) configurations, based from https://github.com/satazor/eslint-config
 
 
 ## Installation
