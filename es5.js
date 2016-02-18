@@ -10,6 +10,8 @@ module.exports = {
     ].map(require.resolve),
     'env': {},
     'ecmaFeatures': {},
-    'globals': {},
+    'globals': {
+        'Promise': true,
+    },
     'rules': {},
 };
