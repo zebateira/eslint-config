@@ -1,12 +1,5 @@
 # eslint-config
 
-[![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
-
-[david-dm-url]:https://david-dm.org/carsy/eslint-config
-[david-dm-image]:https://img.shields.io/david/carsy/eslint-config.svg
-[david-dm-dev-url]:https://david-dm.org/carsy/eslint-config#info=devDependencies
-[david-dm-dev-image]:https://img.shields.io/david/dev/carsy/eslint-config.svg
-
 My own [eslint](http://eslint.org/) configurations, based from https://github.com/satazor/eslint-config
 
 
