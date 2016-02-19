@@ -8,7 +8,7 @@ module.exports = {
     'env': {
         'es6': true,
     },
-    'ecmaFeatures': {
-        'modules': false,
+    'parserOptions': {
+        'sourceType': 'module',
     },
 };
