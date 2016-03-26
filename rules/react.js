@@ -3,13 +3,13 @@
 'use strict';
 
 module.exports = {
-    'plugins': [
+    plugins: [
         'react',
     ],
-    'parserOptions': {
-        'jsx': true,
+    parserOptions: {
+        jsx: true,
     },
-    'rules': {
+    rules: {
         // prevent missing displayName in a React component definition
         'react/display-name': 0,
         // forbid certain propTypes (forbid-prop-types)
@@ -76,7 +76,7 @@ module.exports = {
         'react/self-closing-comp': 2,
         // enforce component methods order
         'react/sort-comp': [2, {
-            'order': [
+            order: [
                 'lifecycle',
                 '/^on.+$/',
                 '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',

@@ -1,13 +1,15 @@
 'use strict';
 
 module.exports = {
-    'extends': [
+    extends: [
         '../rules/react',
     ].map(require.resolve),
-    'plugins': [
+    plugins: [
         'react',
     ],
-    'parserOptions': {
-        'jsx': true,
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
+        },
     },
 };

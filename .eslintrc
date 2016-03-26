@@ -4,6 +4,6 @@
         "./addons/node.js"
     ],
     "rules": {
-        "quote-props": [2, "always"]
+        "quote-props": [2, "consistent"]
     }
 }

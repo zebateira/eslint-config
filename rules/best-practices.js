@@ -3,12 +3,12 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // enforces getter/setter pairs in objects
         'accessor-pairs': 0,
         // treat var statements as if they were block scoped
         'block-scoped-var': 2,
-        'camelcase': [2, { 'properties': 'never' }],
+        'camelcase': [2, { properties: 'never' }],
         // specify the maximum cyclomatic complexity allowed in a program
         'complexity': 0,
         // require return statements to either always or never specify values
@@ -20,7 +20,7 @@ module.exports = {
         // enforces consistent newlines before or after dots
         'dot-location': [2, 'property'],
         // encourages use of dot notation whenever possible
-        'dot-notation': [2, { 'allowKeywords': true }],
+        'dot-notation': [2, { allowKeywords: true }],
         // require the use of === and !==
         'eqeqeq': [2, 'allow-null'],
         // make sure for-in loops have an if statement
@@ -105,7 +105,7 @@ module.exports = {
         // restrict what can be thrown as an exception
         'no-throw-literal': 2,
         // disallow usage of expressions in statement position
-        'no-unused-expressions': [2, { 'allowShortCircuit': true }],
+        'no-unused-expressions': [2, { allowShortCircuit: true }],
         // disallow unnecessary .call() and .apply()
         'no-useless-call': 2,
         // disallow unnecessary concatenation of literals or template literals

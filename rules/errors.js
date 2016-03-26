@@ -3,11 +3,11 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // disallow trailing commas in object literals
-        'comma-dangle': [2, 'always-multiline'],
+        'comma-dangle': [1, 'always-multiline'],
         // disallow assignment in conditional expressions
-        'no-cond-assign': [2, 'except-parens'],
+        'no-cond-assign': [1, 'except-parens'],
         // disallow use of console
         // comment: disabled because console.* expressions are useful for development and
         //                    should be removed by the build process
@@ -62,8 +62,8 @@ module.exports = {
         'use-isnan': 2,
         // ensure JSDoc comments are valid
         'valid-jsdoc': [2, {
-            'requireReturn': false,
-            'prefer': {
+            requireReturn: false,
+            prefer: {
                 'return': 'return',
             },
         }],

@@ -3,17 +3,17 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // require braces in arrow function body
         'arrow-body-style': 0,
         // do not require parens in arrow function arguments
         'arrow-parens': 0,
         // require space before/after arrow function's arrow
-        'arrow-spacing': [2, { 'before': true, 'after': true }],
+        'arrow-spacing': [2, { before: true, after: true }],
         // verify super() callings in constructors
         'constructor-super': 2,
         // enforce the spacing around the * in generator functions
-        'generator-star-spacing': [2, { 'before': true, 'after': true }],
+        'generator-star-spacing': [2, { before: true, after: true }],
         // disallow modifying variables of class declarations
         'no-class-assign': 2,
         // disallow modifying variables that are declared using const

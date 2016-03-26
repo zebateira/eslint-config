@@ -3,7 +3,7 @@
 'use strict';
 
 module.exports = {
-    'rules': {
+    rules: {
         // enforce return after a callback
         'callback-return': 1,
         // enforce require() on top-level module scope
@@ -11,7 +11,7 @@ module.exports = {
         // enforces error handling in callbacks
         'handle-callback-err': 1,
         // disallow mixing regular variable and require declarations
-        'no-mixed-requires': [2, { 'grouping': true }],
+        'no-mixed-requires': [2, { grouping: true }],
         // disallow use of new operator with the require function
         'no-new-require': 0,
         // disallow string concatenation with __dirname and __filename
