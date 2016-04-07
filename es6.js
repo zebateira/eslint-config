@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-    'extends': [
+    extends: [
         './es5',
         './rules/es6',
     ].map(require.resolve),
-    'env': {
-        'es6': true,
+    env: {
+        es6: true,
     },
-    'parserOptions': {
-        'ecmaVersion': 6,
+    parserOptions: {
+        ecmaVersion: 6,
     },
 };
