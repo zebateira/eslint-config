@@ -44,7 +44,11 @@ module.exports = {
         // specify the maximum depth that blocks can be nested
         'max-depth': [1, 6],
         // specify the maximum length of a line in your program
-        'max-len': [1, 120, 4],
+        'max-len': [1, {
+            code: 120, comments: 160, tabWidth: 4,
+            ignorePattern: '([lL]og|console)[\.\[\(]', // ignore logging
+            ignoreComments: true, ignoreTrailingComments: true, ignoreUrls: true,
+        }],
         // specify the maximum depth callbacks can be nested
         'max-nested-callbacks': [2, 6],
         // limits the number of parameters that can be used in the function declaration.

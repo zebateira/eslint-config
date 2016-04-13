@@ -66,8 +66,8 @@ module.exports = {
         'react/no-unknown-property': 2,
         // require ES6 class declarations over React.createClass
         'react/prefer-es6-class': [2, 'always'],
-        // prevent missing props validation in a React component definition
-        'react/prop-types': 2,
+        // allow missing props validation in a React component definition
+        'react/prop-types': 0,
         // prevent missing React when using JSX
         'react/react-in-jsx-scope': 2,
         // restrict file extensions that may be required
