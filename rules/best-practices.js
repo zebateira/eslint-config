@@ -112,8 +112,8 @@ module.exports = {
         'no-useless-concat': 2,
         // disallow use of void operator
         'no-void': 2,
-        // disallow usage of configurable warning terms in comments: e.g. todo
-        'no-warning-comments': 1,
+        // allow usage of configurable warning terms in comments: e.g. todo
+        'no-warning-comments': 0,
         // disallow use of the with statement
         'no-with': 2,
         // require use of the second argument for parseInt()

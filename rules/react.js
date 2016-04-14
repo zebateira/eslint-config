@@ -20,16 +20,16 @@ module.exports = {
         'react/jsx-closing-bracket-location': [2, 'line-aligned'],
         // enforce or disallow spaces inside of curly braces in JSX attributes
         'react/jsx-curly-spacing': 0,
-        // enforce event handler naming conventions in JSX
-        'react/jsx-handler-names': 2,
+        // do not enforce event handler naming conventions in JSX
+        'react/jsx-handler-names': 0,
         // validate props indentation in JSX
         'react/jsx-indent-props': [2, 4],
         // detect missing key prop
         'react/jsx-key': 1,
         // limit maximum of props on a single line in JSX
         'react/jsx-max-props-per-line': 0,
-        // no .bind() or Arrow Functions in JSX Props
-        'react/jsx-no-bind': 2,
+        // allow .bind() or Arrow Functions in JSX Props
+        'react/jsx-no-bind': 0,
         // prevent duplicate props in JSX
         'react/jsx-no-duplicate-props': 0,
         // prevent usage of unwrapped JSX strings
@@ -60,8 +60,8 @@ module.exports = {
         'react/no-is-mounted': 2,
         // prevent multiple component definition per file
         'react/no-multi-comp': 2,
-        // prevent usage of setState
-        'react/no-set-state': 1,
+        // allow usage of setState
+        'react/no-set-state': 0,
         // prevent usage of unknown DOM property
         'react/no-unknown-property': 2,
         // require ES6 class declarations over React.createClass
@@ -75,7 +75,7 @@ module.exports = {
         // prevent extra closing tags for components without children
         'react/self-closing-comp': 2,
         // enforce component methods order
-        'react/sort-comp': [2, {
+        'react/sort-comp': [1, {
             order: [
                 'lifecycle',
                 '/^on.+$/',

@@ -45,7 +45,7 @@ module.exports = {
         'max-depth': [1, 6],
         // specify the maximum length of a line in your program
         'max-len': [1, {
-            code: 120, comments: 160, tabWidth: 4,
+            code: 140, comments: 160, tabWidth: 4,
             ignorePattern: '([lL]og|console)[\.\[\(]', // ignore logging
             ignoreComments: true, ignoreTrailingComments: true, ignoreUrls: true,
         }],
