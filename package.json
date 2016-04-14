@@ -1,7 +1,7 @@
 {
   "name": "@carsy/eslint-config",
   "description": "My own eslint configurations",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "keywords": [
     "eslint-config",
     "eslintconfig",
