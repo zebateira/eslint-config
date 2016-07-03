@@ -18,7 +18,7 @@
   "repository": "git://github.com/carsy/eslint-config.git",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "^2.1.0"
+    "eslint": "^3.0.0"
   },
   "license": "MIT"
 }
