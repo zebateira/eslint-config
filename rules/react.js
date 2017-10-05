@@ -50,10 +50,6 @@ module.exports = {
         'react/no-danger': 0,
         // prevent usage of deprecated methods
         'react/no-deprecated': 1,
-        // prevent usage of setState in componentDidMount
-        'react/no-did-mount-set-state': [2, 'allow-in-func'],
-        // prevent usage of setState in componentDidUpdate
-        'react/no-did-update-set-state': [2, 'allow-in-func'],
         // prevent direct mutation of this.state
         'react/no-direct-mutation-state': 1,
         // prevent usage of isMounted
@@ -86,7 +82,7 @@ module.exports = {
             ],
         }],
         // prevent missing parentheses around multilines JSX
-        'react/wrap-multilines': [2, {
+        'react/jsx-wrap-multilines': [2, {
             'declaration': true,
             'assignment': true,
             'return': true,

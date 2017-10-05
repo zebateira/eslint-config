@@ -1,9 +1,6 @@
 {
     "extends": [
-        "./es5.js",
+        "./es6.js",
         "./addons/node.js"
-    ],
-    "rules": {
-        "quote-props": [2, "consistent"]
-    }
+    ]
 }
